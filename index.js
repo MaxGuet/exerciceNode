@@ -3,8 +3,10 @@ let cowsay = require("cowsay");
 
 console.log(
   cowsay.say({
-    text: "salut les nazes",
+    text: `Hello, i'm ${me.myName} and my campus is ${me.myCampus}`,
     e: "BoB",
     T: "U",
   })
 );
+
+console.log(me);

@@ -1,8 +1,7 @@
-const me = {
-  myName: "Maxence",
-  myCampus: "Lyon",
-};
+const myName = "Maxence";
+const myCampus = "Lyon";
 
 module.exports = {
-  me,
+  myName: myName,
+  myCampus: myCampus,
 };
